@@ -1,0 +1,13 @@
+MIL-STD-1750A
+Military Standard Sixteen-Bit Computer Instruction Set Architecture
+4.1. Data Formats
+4.1.1. Single Precision Fixed Point Data
+Single precision 16-bit fixed point data shall be represented as a 16-bit 2's complement integer number with most significant bit (MSB) as the sign bit:
+MSB                   LSB
+-------------------------
+|S|                     |
+-------------------------
+0 1                    15
+4.1.2. Double Precision Fixed Point Data
+Double precision 32-bit point data shall be represented as a 32-bit 2's complement integer number with the most significant bit (MSB) of the first word as the sign bit.
+
